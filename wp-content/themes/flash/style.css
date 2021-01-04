@@ -1165,7 +1165,7 @@ Header
 
 .logo .logo-image {
 	float: left;
-	padding: 20px 0;
+	padding: 10px 0;
 }
 
 .logo .logo-image a img {
@@ -3247,7 +3247,7 @@ Blogs
 }
 
 .blog-section .tg-blog-widget-layout-2 .read-more-container {
-	background: #f6f6f6;
+	background: #ffcd24;
 	display: inline-block;
 	padding: 5px 10px;
 	margin-top: 20px;
@@ -3274,7 +3274,8 @@ Blogs
 
 .blog-section .tg-blog-widget-layout-2 .read-more-container .read-more a {
 	font-size: 12px;
-	color: #30afb8;
+	color: #4c5867 !important;
+	font-weight: 600;
 }
 
 .blog-section .tg-blog-widget-layout-2:hover {
