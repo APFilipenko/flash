@@ -1137,6 +1137,10 @@ Header
 	content: "\f16d";
 }
 
+.social-menu li a[href*="t.me"]::before {
+	content: "\f3fe";
+}
+
 .social-menu li a[href*="youtube.com"]::before {
 	content: "\f16a";
 }
@@ -1418,21 +1422,21 @@ a,
 
 .header-bottom .search-icon {
 	cursor: pointer;
-	color: #99a3b0;
+	color: #33393d;
 	font-size: 14px;
 	height: 30px;
 	width: 30px;
 	line-height: 30px;
 	text-align: center;
-	border: 1px solid #9ca6b2;
+	border: 1px solid #33393d;
 	border-radius: 100%;
 	-webkit-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 }
 
 .header-bottom .search-icon:hover {
-	border-color: #30afb8;
-	color: #30afb8;
+	border-color: #33393d !important;
+	color: #33393d !important;
 }
 
 .header-bottom .search-box {
@@ -4356,4 +4360,27 @@ WooCommerce
 
 #billing_country_field { 
 	display: none; 
+}
+
+.product-name a{
+	color: #000000 !important;
+	font-weight: 500;
+}
+
+.woocommerce-product-attributes-item a {
+	color: #000000 !important;
+	font-weight: 500;
+}
+
+.woocommerce-product-attributes-item--attribute_pa_slognost a{
+	color: #ffcd24 !important;
+	font-weight: 500;
+}
+
+.woocommerce table.shop_attributes th {
+	width: 170px;
+}
+
+.woocommerce-Tabs-panel--description p {
+	margin: 20px 0 10px 0;
 }

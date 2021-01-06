@@ -378,9 +378,9 @@ responsive CSS
 		margin-bottom: 0;
 	}
 
-	.header-top {
+	/*.header-top {
 		display: none;
-	}
+	}*/
 
 	.full-width #primary .entry-content > .alignwide,
 	.full-width-center #primary .entry-content > .alignwide {

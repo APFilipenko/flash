@@ -6065,7 +6065,7 @@ msgstr "%s нельзя добавить, поскольку это родите
 
 #: templates/cart/cart-shipping.php:62
 msgid "Shipping costs are calculated during checkout."
-msgstr "Стоимость доставки будет подсчитана во время оформления покупки."
+msgstr "Доставка службой Новая почта."
 
 #. translators: %s: Requirements unmet.
 #: includes/wccom-site/class-wc-wccom-site-installer-requirements-check.php:37
